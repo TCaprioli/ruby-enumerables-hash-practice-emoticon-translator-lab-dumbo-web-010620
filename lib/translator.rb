@@ -36,4 +36,5 @@ def get_english_meaning(file,emoticon)
     emotes[:get_meaning][emoticon]
   else 
     return "Sorry, this meaning was not found"
+  end 
 end
