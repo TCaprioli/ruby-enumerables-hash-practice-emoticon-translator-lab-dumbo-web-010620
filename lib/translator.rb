@@ -35,6 +35,6 @@ def get_english_meaning(file,emoticon)
   if emotes[:get_meaning].include?(emoticon)
     emotes[:get_meaning][emoticon]
   else 
-    return "Sorry, this emoticon was not found"
+    return "Sorry, that emoticon was not found"
   end 
 end
