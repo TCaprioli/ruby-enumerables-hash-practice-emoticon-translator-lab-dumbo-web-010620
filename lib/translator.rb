@@ -21,7 +21,8 @@ end
 def get_japanese_emoticon(file, emoticon)
  emotes = load_library(file)
  
- 
+ if emotes[:get_emoticon].include?(emoticon)
+   
   
 binding.pry  
 end
