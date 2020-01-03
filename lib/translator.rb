@@ -23,9 +23,7 @@ def get_japanese_emoticon(file, emoticon)
  
  if emotes[:get_emoticon].include?(emoticon)
    emoticon.find {|japanese| emotes.include?(japanese)}
-  else
-    return "Sorry, that emoticon was not found"
-  end 
+  
 binding.pry  
 end
 
