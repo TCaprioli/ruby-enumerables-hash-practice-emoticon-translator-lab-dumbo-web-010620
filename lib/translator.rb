@@ -25,6 +25,7 @@ def get_japanese_emoticon(file, emoticon)
    emotes[:get_emoticon][emoticon]
   else
     return "Sorry, that emotion was not found."
+  end 
 binding.pry  
 end
 
